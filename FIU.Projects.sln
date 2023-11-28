@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIU.ThriveToDocuSign.Console", "FIU.ThriveToDocuSign.Console\FIU.ThriveToDocuSign.Console.csproj", "{D7D4AA2A-FE3B-436A-9000-D3744A455BFA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8D90CC1B-CBEF-489A-8349-BCE29881510C} = {8D90CC1B-CBEF-489A-8349-BCE29881510C}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIU.ThriveToDocuSign.Core", "FIU.ThriveToDocuSign.Core\FIU.ThriveToDocuSign.Core.csproj", "{1B0558F0-BCE6-4015-B8E1-650E0E5B66DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIU.ThriveToDocuSign.WebApi", "FIU.ThriveToDocuSign.WebApi\FIU.ThriveToDocuSign.WebApi.csproj", "{8D90CC1B-CBEF-489A-8349-BCE29881510C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7D4AA2A-FE3B-436A-9000-D3744A455BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D4AA2A-FE3B-436A-9000-D3744A455BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D4AA2A-FE3B-436A-9000-D3744A455BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D4AA2A-FE3B-436A-9000-D3744A455BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0558F0-BCE6-4015-B8E1-650E0E5B66DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0558F0-BCE6-4015-B8E1-650E0E5B66DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0558F0-BCE6-4015-B8E1-650E0E5B66DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0558F0-BCE6-4015-B8E1-650E0E5B66DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D90CC1B-CBEF-489A-8349-BCE29881510C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D90CC1B-CBEF-489A-8349-BCE29881510C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D90CC1B-CBEF-489A-8349-BCE29881510C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D90CC1B-CBEF-489A-8349-BCE29881510C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9050BED5-740E-4133-AF9D-ECEDFDBF13AF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+<appSettings>
+	<add key="ClientId" value=""/>
+	<add key="AuthServer" value=""/>
+	<add key="ImpersonatedUserID" value=""/>
+	<add key="PrivateKeyFile" value=""/>
+	<add key="AppUrl" value=""/>
+</appSettings>
+</configuration>

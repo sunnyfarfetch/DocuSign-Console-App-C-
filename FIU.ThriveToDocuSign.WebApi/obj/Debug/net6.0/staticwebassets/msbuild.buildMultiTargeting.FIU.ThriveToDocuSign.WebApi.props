@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FIU.ThriveToDocuSign.WebApi.props" />
+</Project>
